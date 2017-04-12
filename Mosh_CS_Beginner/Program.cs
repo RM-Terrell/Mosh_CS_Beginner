@@ -10,6 +10,7 @@ namespace Mosh_CS_Beginner
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world!");
         }
     }
 }
