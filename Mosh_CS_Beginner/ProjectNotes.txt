@@ -1,0 +1,3 @@
+﻿Project will contain many of the beginning lectures of Mosh Hamedani's beginning C# tutorial, not just the Hello World function.
+
+-Camel case vs pascal case vs hungarian notation
