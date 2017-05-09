@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Operators.cs" />
+    <Compile Include="Math\Calculator.cs" />
+    <Compile Include="Classes.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
