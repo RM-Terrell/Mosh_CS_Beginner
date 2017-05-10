@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 // string name = string.Format("{0} {1}", firstName, lastName); as a way to format strings
 
 // Strings are immutable
-//   \n new ling
+//   \n new line
 //   \tab tab
 //   \\ backslash
 //   \' single quote
