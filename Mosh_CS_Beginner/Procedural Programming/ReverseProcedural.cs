@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*Write a program and ask the user to enter their name. Use an array to reverse the name and then store the result in a new string. 
- * Display the reversed name on the console.*/
+ * Display the reversed name on the console.
+ 
+     Remove the logic and place it in its own method. Keep the console interaction separate from the math. */
 
 namespace Mosh_CS_Beginner.Projects
 {
@@ -13,7 +15,7 @@ namespace Mosh_CS_Beginner.Projects
         {
         static void Main(string[] args)
         {
-            //Separate stuff that works with the console from the "business logic"//
+            
             Console.WriteLine("Please enter name");
             var input = Console.ReadLine();
             var reversed = ReverseName(input);
@@ -33,8 +35,7 @@ namespace Mosh_CS_Beginner.Projects
                 array[input.Length - i] = input[i - 1];
 
 
-            var outputRev = new string(array);
-            return outputRev;
+            return new string(array);
 
         }
     }
