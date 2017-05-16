@@ -7,6 +7,7 @@ using System.IO;
 
 // File provides static methods. Security checking on static methods. Not good for big apps
 // FileInfo provides instance methods. No security checks.
+// Similiar functionalites exist in Directory and DirectoryInfo
 
 namespace Mosh_CS_Beginner
 {

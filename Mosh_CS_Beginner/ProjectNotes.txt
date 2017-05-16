@@ -10,3 +10,4 @@
 -Loops
 -String manipulation and the StringBuilder class
 -File manipulation
+-Debugging
