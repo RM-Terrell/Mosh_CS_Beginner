@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 // Convert.ToInt32 or Int.Parse (Int.Parse throws an exception, Convert returns default)
 // ToString()
 // Join()
-
+// StringBuilder and its methods
 
 
 namespace Mosh_CS_Beginner
@@ -36,7 +36,7 @@ namespace Mosh_CS_Beginner
 
             var names = fullName.Split(' '); //Much easier to use this split method. names[0] and names[1] to access
 
-            var sentence = "This is a very long testing sentance for the purpose of testing the new textSummarizer method. Words. Words words words.";
+            var sentence = "This is a very long testing sentence for the purpose of testing the new textSummarizer method. Words. Words words words.";
             var summary = TextSummarizer(sentence, 25);
 
             Console.WriteLine(summary);
