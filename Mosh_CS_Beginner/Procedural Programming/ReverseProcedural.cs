@@ -9,30 +9,32 @@ using System.Threading.Tasks;
 
 namespace Mosh_CS_Beginner.Projects
 {
-    class ListProj2
-    {
+    class ReverseProcedural
+        {
         static void Main(string[] args)
         {
             //Separate stuff that works with the console from the "business logic"//
             Console.WriteLine("Please enter name");
             var input = Console.ReadLine();
-            
+            var reversed = ReverseName(input);
 
-            //-----------Will want to move this logic into its own place----------//
+            Console.WriteLine(reversed);
+
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
+
+
+        }
+
+        public static string  ReverseName(string input)
+        {
             var array = new char[input.Length];
             for (var i = input.Length; i > 0; i--)
                 array[input.Length - i] = input[i - 1];
 
 
             var outputRev = new string(array);
-            //-------------------------------------------------------------------//
-
-            Console.WriteLine(outputRev);
-
-
-            Console.WriteLine("Press any key to exit");
-            Console.ReadKey();
-
+            return outputRev;
 
         }
     }
