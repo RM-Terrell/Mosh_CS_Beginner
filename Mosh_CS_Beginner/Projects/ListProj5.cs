@@ -17,7 +17,9 @@ namespace Mosh_CS_Beginner.Projects
         {
 
             string[] elements;
+
             //----------------------------Section for checking null/whitespace and input count-------------------------------//
+
             while (true)
             {
                 Console.Write("Enter a list of comma-separated numbers: ");
@@ -34,9 +36,12 @@ namespace Mosh_CS_Beginner.Projects
             }
 
             //--------------------Section for conversion to int32 and storing in list-------------------------------------//
+
+
             var numbers = new List<int>();
             foreach (var number in elements)
                 numbers.Add(Convert.ToInt32(number));
+
 
             //-----------------Section for returning smallest numbers----------------------------------------------------//
 
