@@ -13,17 +13,19 @@ namespace Mosh_CS_Beginner.Projects
     {
         static void Main(string[] args)
         {
-
+            //Separate stuff that works with the console from the "business logic"//
             Console.WriteLine("Please enter name");
             var input = Console.ReadLine();
             
 
-            //Loop solution
+            //-----------Will want to move this logic into its own place----------//
             var array = new char[input.Length];
             for (var i = input.Length; i > 0; i--)
                 array[input.Length - i] = input[i - 1];
 
+
             var outputRev = new string(array);
+            //-------------------------------------------------------------------//
 
             Console.WriteLine(outputRev);
 
