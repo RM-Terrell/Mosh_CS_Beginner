@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2AEBAF95-2801-4B02-9C41-170D31F24F66}</ProjectGuid>
+    <ProjectGuid>{ED3454AA-9E87-479A-A2EF-A66050960193}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mosh_CS_Beginner</RootNamespace>
-    <AssemblyName>Mosh_CS_Beginner</AssemblyName>
+    <RootNamespace>CS_Intermediate</RootNamespace>
+    <AssemblyName>CS Intermediate</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ProjectNotes.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Math\" />
-    <Folder Include="Procedural Programming\" />
-    <Folder Include="Projects\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
