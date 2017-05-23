@@ -52,9 +52,9 @@
     <Content Include="ProjectNotes.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Beginning Projects\" />
     <Folder Include="Math\" />
     <Folder Include="Procedural Programming\" />
-    <Folder Include="Projects\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
