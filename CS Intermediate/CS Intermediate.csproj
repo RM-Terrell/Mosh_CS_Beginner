@@ -43,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Intermediate Projects\StackOverFlow\Program.cs" />
-    <Compile Include="Intermediate Projects\StackOverFlow\Stack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Intermediate Projects\StackOverFlow\" />
     <Folder Include="Intermediate Projects\Stopwatch\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
