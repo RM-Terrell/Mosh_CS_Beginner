@@ -32,7 +32,7 @@ namespace CS_Intermediate.Intermediate_Projects.StackOverFlow
 
             var StackPost = new StackPost(title, description);
 
-            //Decided to use a while loop to make running and closing the program easly like the stopwatch
+            //Decided to use a while loop to make running and closing the program easy like the stopwatch
             while (true)
             {
                 Console.WriteLine(StackPost.ToString());

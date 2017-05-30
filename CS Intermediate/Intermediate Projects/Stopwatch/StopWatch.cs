@@ -5,7 +5,7 @@ namespace CS_Intermediate.Intermediate_Projects.Stopwatch
 
     class Stopwatch
     {
-        private bool _isRunning;
+        private bool _isRunning; //Defaults to false
         private DateTime _startTime;
         private DateTime _stopTime;
 
@@ -14,22 +14,22 @@ namespace CS_Intermediate.Intermediate_Projects.Stopwatch
             _isRunning = false;
         }
 
-        public void Start(DateTime start) // Method for starting
+        public void Start() // Method for starting
         {
             if (_isRunning)
-                throw new InvalidOperationException("Start"); // Error code for starting twice
+                throw new InvalidOperationException("Already running"); // Error code for starting twice
 
             _isRunning = true;
-            _startTime = start;
+            _startTime = DateTime.Now; // Using Date time now to prevent having some other time be passed
         }
 
-        public void Stop(DateTime stop)
+        public void Stop()
         {
             if (!_isRunning)
-                throw new InvalidOperationException("Stop");
+                throw new InvalidOperationException("Not running");
 
             _isRunning = false;
-            _stopTime = stop;
+            _stopTime = DateTime.Now;
         }
 
         public TimeSpan Difference()

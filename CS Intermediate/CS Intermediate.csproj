@@ -49,6 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Intermediate Projects\DbConnection\" />
     <Folder Include="Intermediate Projects\StackOverFlow\" />
     <Folder Include="Intermediate Projects\Stopwatch\" />
   </ItemGroup>

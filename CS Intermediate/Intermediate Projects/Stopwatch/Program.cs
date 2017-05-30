@@ -27,14 +27,14 @@ namespace CS_Intermediate.Intermediate_Projects.Stopwatch
                 var keyPressed = Console.ReadKey().Key;
                 var stopWatch = new Stopwatch();
 
-                stopWatch.Start(DateTime.Now);
+                stopWatch.Start();
 
                 Console.WriteLine("Press any key to stop stopwatch");
                 keyPressed = Console.ReadKey().Key;
 
                 if (keyPressed.Equals(ConsoleKey.Escape)) break;
 
-                stopWatch.Stop(DateTime.Now);
+                stopWatch.Stop();
 
                 Console.WriteLine("Stop - start = {0}\n", stopWatch.Difference());
                 
